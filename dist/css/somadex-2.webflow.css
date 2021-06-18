@@ -3864,6 +3864,11 @@ a {
     bottom: 6%;
   }
 
+  .page-content.gradientbg {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .grid-4-columns {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -4134,6 +4139,10 @@ a {
 
   .image-inner.alt.big {
     height: 400px;
+  }
+
+  .page-content.gradientbg {
+    background-image: repeating-radial-gradient(circle farthest-corner at 50% 50%, #e9f0f5, hsla(0, 0%, 100%, 0.9) 50%, #e9f0f5 86%);
   }
 
   .grid-4-columns {
