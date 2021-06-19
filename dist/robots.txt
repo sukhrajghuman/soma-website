@@ -1,0 +1,3 @@
+Sitemap: https://soma.finance/sitemap.xml
+User-agent: *
+Disallow:
