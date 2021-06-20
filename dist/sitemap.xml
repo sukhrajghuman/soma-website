@@ -2,19 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://soma.finance/</loc>
-      <xhtml:link Rel="canonical" href="https://soma.finance/"/>
+      <xhtml:link rel="canonical" href="https://www.soma.finance">
    </url>
    <url>
       <loc>https://soma.finance/index.html</loc>
-      <xhtml:link Rel="canonical" href="https://soma.finance/"/>
+      <xhtml:link rel="canonical" href="https://www.soma.finance">
    </url>
    <url>
       <loc>https://soma.finance/privacy.html</loc>
-      <xhtml:link Rel="canonical" href="https://soma.finance/privacy.html"/>
+      <xhtml:link rel="canonical" href="https://www.soma.finance/privacy.html"/>
    </url>
    <url>
       <loc>https://soma.finance/terms.html</loc>
-      <xhtml:link Rel="canonical" href="https://soma.finance/terms.html"/>
+      <xhtml:llink rel="canonical" href="https://www.soma.finance/terms.html"/>
    </url>
-
 </urlset>
