@@ -1,7 +1,7 @@
 {
   "name": "@soma/soma-website",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The front page of SOMA Finance",
   "repository": {
     "type": "git",
