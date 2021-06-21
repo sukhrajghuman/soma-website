@@ -1,0 +1,20 @@
+{
+  "name": "@soma/soma-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The front page of SOMA Finance",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOMA-Finance/soma-website.git"
+  },
+  "keywords": [
+    "soma",
+    "static-website",
+    "webflow"
+  ],
+  "author": "SOMA FINANCE <tech@soma.finance> (https://soma.finance)",
+  "bugs": {
+    "url": "https://github.com/SOMA-Finance/soma-website/issues"
+  },
+  "homepage": "https://github.com/SOMA-Finance/soma-website#readme"
+}
