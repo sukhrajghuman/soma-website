@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <!--  Last Published: Mon Aug 16 2021 07:17:56 GMT+0000 (Coordinated Universal Time)  -->
 <html
-  data-wf-page="6106deebc65fd3019ceee0c9"
+  data-wf-page="6106deebc65fd36213eee0c8"
   data-wf-site="60ab86b086237121a79da8de"
   lang="en"
 >
   <head>
     <meta charset="utf-8" />
-    <title>Not Found</title>
-    <meta content="Not Found" property="og:title" />
+    <title>Protected page</title>
+    <meta content="Protected page" property="og:title" />
     <meta
       content="https://uploads-ssl.webflow.com/60ab86b086237121a79da8de/60b615bf8f495490fc6357fc_opengraph.jpg"
       property="og:image"
     />
-    <meta content="Not Found" property="twitter:title" />
+    <meta content="Protected page" property="twitter:title" />
     <meta
       content="https://uploads-ssl.webflow.com/60ab86b086237121a79da8de/60b615bf8f495490fc6357fc_opengraph.jpg"
       property="twitter:image"
@@ -76,20 +76,57 @@
       }
     </style>
   </head>
-  <body class="body">
+  <body class="body-2">
     <div class="section-c2 bg-gradient is--navy with--shape is--utility">
-      <div class="utility-page-content w-form">
-        <img
-          src="https://d3e54v103j8qbb.cloudfront.net/static/page-not-found.211a85e40c.svg"
-          alt=""
-          class="image-29"
-        />
-        <h2>Page Not Found</h2>
-        <div>
-          The page you are looking for doesn&#x27;t exist or has been moved
-        </div>
-        <div class="divider"></div>
-        <a href="/" class="btn w-button">Back to Home</a>
+      <div class="utility-page-content w-password-page w-form">
+        <a href="/" class="brand absolute-logo small w-nav-brand"
+          ><img
+            src="images/soma-logo-full-stack-white.svg"
+            loading="lazy"
+            alt="soma logo"
+        /></a>
+        <div class="divider _4em"></div>
+        <form
+          action="/.wf_auth"
+          method="post"
+          class="utility-page-form w-password-page"
+        >
+          <input
+            type="password"
+            autofocus="true"
+            id="pass"
+            name="pass"
+            placeholder="Enter page password"
+            maxlength="256"
+            class="text-field w-password-page w-input"
+          /><input
+            type="submit"
+            value="Submit"
+            data-wait="Please wait..."
+            class="btn is--sub-form w-password-page w-button"
+          />
+          <div class="w-password-page w-form-fail">
+            <div>Incorrect password. Please try again.</div>
+          </div>
+          <div style="display: none" class="w-password-page w-embed w-script">
+            <input
+              type="hidden"
+              name="path"
+              value="<%WF_FORM_VALUE_PATH%>"
+            /><input type="hidden" name="page" value="<%WF_FORM_VALUE_PAGE%>" />
+          </div>
+          <div style="display: none" class="w-password-page w-embed w-script">
+            <script type="application/javascript">
+              (function _handlePasswordPageOnload() {
+                if (/[?&]e=1(&|$)/.test(document.location.search)) {
+                  document.querySelector(
+                    ".w-password-page.w-form-fail"
+                  ).style.display = "block";
+                }
+              })();
+            </script>
+          </div>
+        </form>
       </div>
     </div>
     <script
